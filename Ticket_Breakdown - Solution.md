@@ -3,12 +3,16 @@
 
 ## subticket_1
 
-Description: Create a function that generates the unique string CustomeID from unique facility name
-Estimated Time: 40min
-Dependency: None
+Description: Create a function that generates the unique string CustomeID from unique facility name  
 
-Details:
-let generateCustomFacilityID = (facilityName: string) => string: {
+Estimated Time: 40min  
+
+Dependency: None  
+
+
+Details:  
+
+let generateCustomFacilityID = (facilityName: string) => string: { 
 }
 
 Approval rule
