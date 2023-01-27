@@ -5,4 +5,9 @@ describe("deterministicPartitionKey", () => {
     const trivialKey = deterministicPartitionKey();
     expect(trivialKey).toBe("0");
   });
+
+  it("Returns the literal '123' when given 123", () => {
+    const trivialKey = deterministicPartitionKey({partitionKey: "123"});
+    expect(trivialKey).toBe("123");
+  });
 });
